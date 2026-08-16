@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #f5f5f5;
+  color: #333;
+  padding: 48px 24px;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.foto img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.topo {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.info h1 {
+  font-size: 32px;
+  margin-bottom: 4px;
+}
+
+.info p {
+  font-size: 16px;
+  color: #666;
+}
+
+.sobre {
+  margin-bottom: 40px;
+}
+
+.sobre h2 {
+  font-size: 21px;
+  margin-bottom: 12px;
+}
+
+.sobre p {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.certificacoes h2 {
+  font-size: 21px;
+  margin-bottom: 12px;
+}
+
+.certs {
+  display: flex;
+  gap: 24px;
+}
+
+.certs img {
+  width: 150px;
+}
+
+.contatos {
+  margin-top: 40px;
+}
+
+.contatos h2 {
+  font-size: 21px;
+  margin-bottom: 12px;
+}
+
+.contatos-lista {
+  display: flex;
+  gap: 24px;
+}
+
+.contatos-lista a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #333;
+  font-size: 15px;
+}
+
+.contatos-lista img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 48px;
+  padding: 24px 0;
+  font-size: 14px;
+  color: #666;
+}
